@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/Children-pet-dog.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+  
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+main{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 50%;
+    background-color: rgb(253, 246, 151);
+    opacity: .7;
+    box-shadow: rgb(61, 61, 63) 0px 0px 6px;
+    
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-self: center;
+      height: 70%;
+      width: 80%;
+    }
+}
+
+.left-container,.right-container{
+    padding-top:1em ;
+}
+.left-container{
+    float: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1em;
+    font-weight: 600; 
+}
+
+.left-container h1{
+    color: rgb(177, 113, 30);
+    display:inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 1em;
+}
+.left-container img {
+    max-width: 150px;
+    justify-content: center;
+    filter: grayscale(1); 
+    padding: 0 10px;
+    margin-top: 0;
+
+  }
+.right-container{
+    flex: 2;
+}
+
+.right-container h1{
+    text-align: center;
+    color:rgb(98, 119, 3);
+    font-size: 28px;
+    margin-bottom: 0;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+}
+
+.field {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    padding: 0.75em;
+  }
+  
+@media screen and (max-width: 900px) {
+    .field {
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        align-items: center;
+        padding: 0.09em;
+      }
+}
+
+.field label{
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+.field input[type="text"], .field input[type="number"], .field select{
+    padding: 10;
+    margin: 0;
+    border: none;
+    border-radius: 3%;
+    border-bottom: 1px solid;
+    font-size: large;
+    background-color:transparent;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer input {
+    border: none;
+    padding: 0.7em 2em;
+    border: 1px solid #444;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 0 2em;
+    background: transparent;
+    color: #444;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: large;
+    transition-duration: 500ms;
+}
+
+@media screen and (max-width: 900px) {
+    footer input {
+        border: none;
+        padding: 0.7em 2em;
+        border: 1px solid #444;
+        text-transform: uppercase;
+        font-weight: bolder;
+        margin: 1em 2em;
+        background: transparent;
+        color: rgb(99, 70, 155);
+        cursor: pointer;
+        font-family: "Montserrat", sans-serif;
+        font-size:small;
+        transition-duration: 500ms;
+    }
+}
+
+footer input:hover {
+    background: #444;
+    color: #fff;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+header input{
+    border: none;
+    border: 2px solid #444;
+    font-weight: bold;
+    margin: 0 2em;
+    background: transparent;
+    color: rgb(5, 20, 71);
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: large;
+    transition-duration: 500ms;
+  }
+  
+  footer input:hover {
+    background: #444;
+    color: #fff;
+  }
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    
+    margin: 0;
+}
+
+
+
+

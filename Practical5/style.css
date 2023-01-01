@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    background-color: #f7f7f7;
+    width: 120rem;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-family: sans-serif;
+    font-weight: normal;
+    color: rgb(116, 29, 61);
+    font-size: 28px;
+    width: 780px;
+    font-weight: bold;
+    margin: 4rem auto;
+    text-align: center;
+  }
+  
+  .para {
+    border: 3px solid #304a58;
+    padding: 2rem;
+    font-size: 18px;
+    margin: 4rem auto;
+    font-family: serif;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 4rem 5rem;
+  }
+  
+  .el {
+    cursor: pointer;
+    font-family: sans-serif;
+    padding: 1.6rem 3.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(136, 131, 131);
+    filter: drop-shadow(0rem 0.2rem 0.5rem rgb(0,0,0.2));
+    color: #f7f7f7;
+    border: none;
+    transition: all 0.4s;
+    font-size: 1.8rem;
+  }
+  
+  .el:focus {
+    box-shadow: 0 0 0 0.8rem rgba(194, 199, 204, 0.877);
+  }
+  
+  .el--1:hover {
+    background-color: #ec5858;
+    color: #ff0000;
+  }
+  
+  .el--2:hover {
+    background-color: #58bb6a;
+    color: #02af21;
+  }
+  
+  .el--3:hover {
+    background-color: #4191d8;
+    color: #0257a1;
+  }
+  
+  .el--4:hover {
+    background-color: #222;
+    font-size: 1rem;
+  }
+  
+  .el--5:hover {
+    background-color: #222;
+    font-size: 2rem;
+  }
+  
+  .el--6:hover {
+    background-color: #222;
+    font-size: 3rem
+  }
+  
+  .el--7:hover {
+    background-color: #223;
+    font-family: sans-serif;
+  }
+  
+  .el--8:hover {
+    background-color: #222;
+    font-family:cursive;
+  }
+  
+  .el--9:hover {
+    background-color: #222;
+    font-family:monospace;
+  }
+  
+  .red-text {
+    color: #f03e3e;
+  }
+  
+  .green-text {
+    color: #37b24d;
+  }
+  
+  .blue-text {
+    color: #1c7ed6;
+  }
+  
+  .small-text {
+    font-size: 1rem;
+  }
+  
+  .mid-text {
+    font-size: 2rem;
+  }
+  
+  .large-text {
+    font-size: 3rem;
+  }
+  
+  .sans-serif-text {
+    font-family: sans-serif;
+  }
+  
+  .cursive-text {
+    font-family:cursive;
+  }
+  
+  .monospace-text {
+    font-family: monospace;
+  }

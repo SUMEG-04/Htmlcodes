@@ -1,0 +1,37 @@
+[
+	{
+		"name":"Sheru",
+		"age":10,
+		"weight":12,
+		"type":"Pavellion",
+		"likes":"eating, playing with ball"
+	},
+	{
+		"name":"Binny",
+		"age":5,
+		"weight":24,
+		"type":"German Sefford",
+		"likes":"Biting, eating flesh"
+	},
+	{
+		"name":"Tom",
+		"age":5,
+		"weight":8,
+		"type":"cat",
+		"likes":"sleeping"
+	},
+	{
+		"name":"Jaggu",
+		"age":1,
+		"weight":1.5,
+		"type":"rabbit",
+		"likes":"running, eating cheese"
+	},
+	{
+		"name":"Chikulu",
+		"age":1,
+		"weight":1.2,
+		"type":"Hamster",
+		"likes":"running, eating carrot"
+	}
+]

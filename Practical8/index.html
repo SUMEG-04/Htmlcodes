@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Practical 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Bsc Hons Computer Science</h1>
+        <table class="info-table">
+            <tr class="table-row">
+                <td>Fee</td>
+                <td>33000</td>
+            </tr>
+            <tr class="table-row">
+                <td>Eligibility Criteria</td>
+                <td>12 Pass 96 percentage</td>
+                
+            </tr>
+            <tr class="table-row">
+                <td>Subjects and credit scores</td>
+                <td class="table-data">
+                    <table>
+                        <tr class="table-row">
+                            <th>Subject</th>
+                            <th>Credit score</th>
+                        </tr>
+                        <tr class="table-row">
+                            <td>IT</td>
+                            <td>6</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>Toc</td>
+                            <td>6</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>DAV</td>
+                            <td>4</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>DIP/Micro</td>
+                            <td>4</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>Future Opportunities</td>
+                <td>Bohot scope h isme par pata nahi kaha hai</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="btn-style">
+        <button class="btn-style">
+            Style Page
+        </button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#btn-style').click(function () {
+                $("div").addClass('container');
+                $("table").addClass('info-table');
+                $("tr").addClass('table-row');
+                $("td").addClass('table-data');
+                $(".heading").css({
+                    "textAlign": 'center'
+                });
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>
